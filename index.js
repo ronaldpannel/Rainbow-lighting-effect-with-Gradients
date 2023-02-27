@@ -13,9 +13,9 @@ window.addEventListener("load", function () {
   const numberOfLines = 200;
 
   //canvas shadows
-  ctx.shadowOffsetX = 2;
-  ctx.shadowOffsetY = 2;
-  ctx.shadowColor = "white";
+  // ctx.shadowOffsetX = 2;
+  // ctx.shadowOffsetY = 2;
+  // ctx.shadowColor = "white";
 
   const linearGrad = ctx.createLinearGradient(0, 0, canvas.width, canvas.width);
   linearGrad.addColorStop("0.2", "pink");
